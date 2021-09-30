@@ -10,8 +10,8 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 // Todo lo que este en inmutable nosotros no lo vamos a modificar
 // El appshell es el corazon de la aplicación : lo que deberia estar caergado lo más rapido posible
 const APP_SHELL = [
-  '/',
-  '/index.html',
+  // '/',
+  'index.html',
   'css/style.css',
   'img/favicon.ico',
   'img/avatars/hulk.jpg',
