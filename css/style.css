@@ -11,6 +11,15 @@
     font-size: 16px;
     background-color: #dde1e2; 
     width: 100%;
+
+    /* Solución android - overscroll */
+    overscroll-behavior-y: contain;
+
+    /* Se evitan selecciones en dispositivos moviles */
+    -webkit-user-select: none; 
+    -webkit-tap-highlight-color: transparent;
+    /* Desabilitar ventanas */
+    -webkit-touch-callout: none;
 }
 
 /* Personalizados */
